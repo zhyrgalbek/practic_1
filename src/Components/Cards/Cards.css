@@ -1,0 +1,48 @@
+.Cards{
+    /* border: 1px solid #000; */
+    position: relative;
+    width: 320px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px 0.5px #000;
+    transition: linear .2s;
+}
+
+.Cards:nth-child(1n+1){
+    margin-left: 20px;
+}
+
+.Cards:hover{
+    transform: translate(0, -10px);
+}
+
+
+.Cards-name{
+    margin-top: 70px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.Cards-about{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.Cards-text{
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.Cards-emails{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emails{
+    font-weight: 700;
+}
